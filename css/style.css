@@ -53,6 +53,17 @@ body {
     background-color: wheat;
     padding: 3%;
     opacity: 0.9;
+    display: flex;
+}
+.two-d {
+  background-color: wheat;
+    padding: 3%;
+    opacity: 0.9;
+    display: flex;
+    width: 60%;
+}
+.two-d img {
+  padding-right: 20px;
 }
 #make-order{
     background-attachment:scroll;
