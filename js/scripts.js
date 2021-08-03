@@ -14,7 +14,7 @@ $(document).ready(function() {
     $("#information").hide();
     $("div.choise").slideDown(1000);
   });
-}
+});
   $("button.proceed").click(function(event) {
     let pname = $(".name option:selected").val();
    let psize = $("#size option:selected").val();
@@ -166,9 +166,8 @@ $(document).ready(function() {
       $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
     });
 
-    $("button#final-order").click(function(event){
+    function finalOrder(event){
       event.preventDefault();
-
       $("#pizzatotal").hide();
       $(".delivery").hide();
       $("button#final-order").hide();
@@ -189,7 +188,7 @@ $(document).ready(function() {
         $(".delivery").show();
         $("button#final-order").show();
       }
-    });
-    
-   event.preventDefault();
-  });
+      
+
+    };
+ });
