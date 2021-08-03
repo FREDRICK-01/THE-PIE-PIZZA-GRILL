@@ -21,15 +21,15 @@ cd THE PIE PIZZA GRILL
 code . or atom . depending on the text editor of your choise.
 
 ### Technologies Used
-HTML5
-CSS
-Bootstrap
-Javascript
-markdown
+1. HTML5
+2. CSS
+3. Bootstrap
+4. Javascript
+5. markdown
 
 If you have any question or contributions that would better this app, please email me at [fredrickgachuru73@gmail.com]
 
 License
 [MIT License:](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2021 FREDRICK G. MWANGI###
+### Copyright (c) 2021 FREDRICK G. MWANGI
